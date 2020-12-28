@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="197.0" prefWidth="355.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controllers.CloseConfirmController">
+   <children>
+      <Label layoutX="29.0" layoutY="55.0" prefHeight="20.0" prefWidth="297.0" text="Данные не были сохраненны, вы уверены?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonCancel" layoutX="126.0" layoutY="145.0" mnemonicParsing="false" text="Cancel" />
+      <Button fx:id="buttonExit" layoutX="204.0" layoutY="145.0" mnemonicParsing="false" text="Exit" />
+   </children>
+</Pane>

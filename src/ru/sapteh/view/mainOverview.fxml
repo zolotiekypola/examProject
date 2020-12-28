@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.view.mainController">
+<TabPane fx:id="tabCourse" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="1000.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="java">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <SplitPane dividerPositions="0.49899799599198397" layoutX="109.0" layoutY="106.0" prefHeight="371.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="669.0" prefWidth="424.0">
+                           <children>
+                              <TableView fx:id="tableJava" layoutX="-25.0" layoutY="49.0" prefHeight="669.0" prefWidth="294.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn fx:id="fxFioJava" prefWidth="75.0" text="fio" />
+                                    <TableColumn fx:id="fxData1Java" prefWidth="75.0" text="2020.12.7" />
+                                    <TableColumn fx:id="fxData2Java" prefWidth="75.0" text="2020.12.8" />
+                                    <TableColumn fx:id="fxData3Java" prefWidth="75.0" text="2020.12.9" />
+                                    <TableColumn fx:id="fxData4Java" prefWidth="75.0" text="2020.12.10" />
+                                </columns>
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                              <children>
+                                 <Button fx:id="buttonSaveJava" layoutX="424.0" layoutY="598.0" mnemonicParsing="false" text="Save" />
+                                 <Label fx:id="labelJava" layoutX="166.0" layoutY="602.0" prefHeight="17.0" prefWidth="242.0" />
+                              </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="c#">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <SplitPane dividerPositions="0.5" layoutX="143.0" layoutY="71.0" prefHeight="371.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <TableView fx:id="tableCsharp" layoutX="47.0" layoutY="135.0" prefHeight="669.0" prefWidth="294.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn fx:id="fxFioCsharp" prefWidth="75.0" text="fio" />
+                                  <TableColumn fx:id="fxData1Csharp" prefWidth="75.0" text="2020.12.7" />
+                                    <TableColumn fx:id="fxData2Csharp" prefWidth="75.0" text="2020.12.8" />
+                                    <TableColumn fx:id="fxData3Csharp" prefWidth="75.0" text="2020.12.9" />
+                                    <TableColumn fx:id="fxData4Csharp" prefWidth="75.0" text="2020.12.10" />
+                                </columns>
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                              </TableView>
+                           </children></AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                              <children>
+                                 <Button fx:id="buttonSaveCsharp" layoutX="409.0" layoutY="603.0" mnemonicParsing="false" text="Save" />
+                                 <Label fx:id="labelCsharp" layoutX="185.0" layoutY="607.0" prefHeight="17.0" prefWidth="215.0" />
+                              </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="c++">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <SplitPane dividerPositions="0.5" layoutX="209.0" layoutY="95.0" prefHeight="371.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <TableView fx:id="tableCplus" layoutX="47.0" layoutY="57.0" prefHeight="669.0" prefWidth="294.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn fx:id="fxFioCplus" prefWidth="75.0" text="fio" />
+                                  <TableColumn fx:id="fxData1Cplus" prefWidth="75.0" text="2020.12.7" />
+                                    <TableColumn fx:id="fxData2Cplus" prefWidth="75.0" text="2020.12.8" />
+                                    <TableColumn fx:id="fxData3Cplus" prefWidth="75.0" text="2020.12.9" />
+                                    <TableColumn fx:id="fxData4Cplus" prefWidth="75.0" text="2020.12.10" />
+                                </columns>
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                              </TableView>
+                           </children></AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                              <children>
+                                 <Button fx:id="buttonSaveCplus" layoutX="430.0" layoutY="603.0" mnemonicParsing="false" text="Save" />
+                                 <Label fx:id="labelCplus" layoutX="235.0" layoutY="607.0" prefHeight="17.0" prefWidth="186.0" />
+                              </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>
+   <MenuBar layoutY="2.0">
+     <menus>
+       <Menu fx:id="menuBar" mnemonicParsing="false" text="File">
+         <items>
+           <MenuItem mnemonicParsing="false" onAction="#menuItemClose" text="Close" />
+               <MenuItem mnemonicParsing="false" onAction="#menuItemExport" text="Export" />
+         </items>
+       </Menu>
+     </menus>
+   </MenuBar>
+</Pane>
